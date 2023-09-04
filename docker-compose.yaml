@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  web:
+    image: "marseloffl/todo-node-app:latest"
+    ports:
+      - "8000:8000"
